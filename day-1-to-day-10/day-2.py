@@ -21,7 +21,9 @@ print(math.floor(2.1))
 
 # Exercise
 
-''' Write a Python program to add two numbers. '''
+''' 
+Write a Python program to add two numbers. 
+'''
 
 first_number = input("Enter the first number: ")
 second_number = input("Enter the second number: ")
@@ -49,3 +51,12 @@ days_remaining = years_remaining * 365
 
 
 print(f'You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left.')
+
+
+'''
+Write a Python program that calculates the area of a circle given its radius.
+'''
+
+radius_of_circle = int(input("Input the radius of the circle: "))
+area = math.pi * (radius_of_circle ** 2)
+print(radius_of_circle)
