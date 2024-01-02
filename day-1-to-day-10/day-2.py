@@ -59,4 +59,4 @@ Write a Python program that calculates the area of a circle given its radius.
 
 radius_of_circle = int(input("Input the radius of the circle: "))
 area = math.pi * (radius_of_circle ** 2)
-print(radius_of_circle)
+print(round(area, 2))
