@@ -16,5 +16,5 @@ print("Pounds to kilogram conversion")
 
 # create a variable to store the user's weight
 weight_in_pounds = input("What is your weight?(in pounds) ")
-weight_in_kg =  str(int(weight_in_pounds) / 2.2)
+weight_in_kg =  str(int(weight_in_pounds) // 2.2)
 print(weight_in_kg + "kg" )
