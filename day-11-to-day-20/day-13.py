@@ -15,7 +15,7 @@
 • pop(pos): removes and returns the item at position pos.
 '''
 
-# The Nod Class
+# The Node Class
 
 class Node:
     def __init__(self, data):
