@@ -2,7 +2,7 @@
 #   # SEARCHING ALGORITHMS
 
 
-test_list = [1, 2, 32, 8, 17, 19, 42, 13, 0]
+
 
 # The Sequential Search
 
@@ -13,7 +13,7 @@ def sequential_search(list, item):
             found = True
     return found
 
-
+test_list = [1, 2, 32, 8, 17, 19, 42, 13, 0]
 # print(sequential_search(test_list, 13))
 
 
@@ -34,4 +34,5 @@ def binary_search(list, item):
                 first = midpoint + 1
     return found
 
-print(binary_search(test_list, 13))
+test_list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(binary_search(test_list2, 9))
